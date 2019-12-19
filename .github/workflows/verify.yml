@@ -16,4 +16,7 @@ jobs:
     - run: yarn install
     - name: Run ESLint
       run: yarn lint -f tap
+    - name: Check JSON and Markdown files
+      run: yarn prettier --check "**/*.{json,md}"
+
 
