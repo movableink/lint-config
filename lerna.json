@@ -1,6 +1,9 @@
 {
   "packages": ["eslint", "prettier"],
-  "version": "0.2.0",
+  "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true
+  "useWorkspaces": true,
+  "publishConfig": {
+    "access": "public"
+  }
 }
