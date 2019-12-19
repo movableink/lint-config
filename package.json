@@ -1,18 +1,37 @@
 {
-  "name": "@movable/eslint-config",
-  "version": "0.1.0",
-  "description": "Shared ESLint configuration for Movable Ink",
-  "repository": "https://github.com/movableink/eslint-config",
-  "author": "Alex LaFroscia <alafroscia@movableink.com>",
-  "license": "MIT",
-  "private": false,
+  "name": "lint-config",
+  "workspaces": [
+    "eslint",
+    "prettier"
+  ],
   "scripts": {
     "lint": "eslint ."
   },
-  "dependencies": {
+  "private": true,
+  "devDependencies": {
     "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
+  },
+  "prettier": "./prettier",
+  "eslintConfig": {
+    "extends": "./eslint/node"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

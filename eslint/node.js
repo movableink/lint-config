@@ -1,8 +1,6 @@
 'use strict';
 
 module.exports = {
-  extends: ['./index'],
-  env: {
-    node: true
-  }
+  plugins: ['node'],
+  extends: ['plugin:node/recommended']
 };

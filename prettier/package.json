@@ -1,0 +1,9 @@
+{
+  "name": "@movable/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared Prettier configuration for Movable Ink",
+  "repository": "https://github.com/movableink/lint-config",
+  "author": "Alex LaFroscia <alafroscia@movableink.com>",
+  "license": "MIT",
+  "private": false
+}
