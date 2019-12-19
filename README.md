@@ -1,6 +1,6 @@
-# @movable/lint-config
+# @movable/eslint-config
 
-Shared lint configuration for Movable Ink
+Shared linter configuration for Movable Ink
 
 ## Installation
 
