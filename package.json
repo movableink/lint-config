@@ -2,10 +2,12 @@
   "name": "lint-config",
   "workspaces": [
     "eslint",
+    "generator-lint-config",
     "prettier"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest"
   },
   "private": true,
   "devDependencies": {
@@ -13,13 +15,20 @@
     "@commitlint/config-conventional": "^8.2.0",
     "eslint": "^6.7.2",
     "husky": "^3.1.0",
+    "jest": "^24.8.0",
     "lerna": "^3.19.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
   },
   "prettier": "./prettier",
   "eslintConfig": {
-    "extends": "./eslint/node"
+    "extends": [
+      "./eslint",
+      "./eslint/node"
+    ],
+    "env": {
+      "jest": true
+    }
   },
   "husky": {
     "hooks": {
@@ -41,5 +50,8 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }

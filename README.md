@@ -7,6 +7,8 @@ This repo contains shared configuration files for various static analysis tools.
 - [ESLint](./eslint/README.md)
 - [Prettier](./prettier/README.md)
 
+It also provides a [Yeoman generator](./generator-lint-config/READMD.md') that can be used to configure the above tools for you.
+
 ## Recommended Setup
 
 It is suggested that you follow the configuration steps above for both ESLint and Prettier when setting up a JavaScript project.

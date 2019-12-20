@@ -19,4 +19,18 @@ jobs:
     - name: Check JSON and Markdown files
       run: yarn prettier --check "**/*.{json,md}"
 
+  test:
 
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+    - run: yarn install
+    - name: Run Jest
+      run: yarn test
+      env:
+        CI: true
