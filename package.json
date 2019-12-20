@@ -19,7 +19,10 @@
   },
   "prettier": "./prettier",
   "eslintConfig": {
-    "extends": "./eslint/node"
+    "extends": [
+      "./eslint",
+      "./eslint/node"
+    ]
   },
   "husky": {
     "hooks": {
