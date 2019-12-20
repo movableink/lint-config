@@ -1,6 +1,7 @@
 {
   "name": "lint-config",
   "workspaces": [
+    "create-lint-config",
     "eslint-config",
     "generator-lint-config",
     "prettier-config"

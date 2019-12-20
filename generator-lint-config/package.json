@@ -7,7 +7,7 @@
   "repository": "https://github.com/movableink/lint-config",
   "license": "MIT",
   "private": false,
-  "main": "generators/index.js",
+  "main": "generators/app/index.js",
   "keywords": [
     "lint-config",
     "yeoman-generator"

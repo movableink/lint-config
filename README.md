@@ -11,4 +11,10 @@ It also provides a [Yeoman generator](./generator-lint-config/READMD.md') that c
 
 ## Recommended Setup
 
-It is suggested that you follow the configuration steps above for both ESLint and Prettier when setting up a JavaScript project.
+The quickest and easiest way to configure your project with one of these configurations is to run the following:
+
+```bash
+yarn create @movable/lint-config
+```
+
+You will be asked a few questions about your project, and once answered, the any dependencies and required configuration will be taken care of for you.
