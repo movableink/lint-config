@@ -1,6 +1,6 @@
 {
   "name": "@movable/generator-lint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Yeoman generator to set up the Movable Ink linter config",
   "homepage": "https://github.com/movableink/lint-config/generator-lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
