@@ -5,5 +5,10 @@
   "useWorkspaces": true,
   "publishConfig": {
     "access": "public"
+  },
+  "command": {
+    "publish": {
+      "message": "chore(release): publish %s"
+    }
   }
 }
