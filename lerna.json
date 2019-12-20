@@ -1,5 +1,5 @@
 {
-  "packages": ["eslint", "prettier"],
+  "packages": ["eslint", "generator-lint-config", "prettier"],
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
