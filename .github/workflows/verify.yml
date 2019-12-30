@@ -3,34 +3,58 @@ name: Verify
 on: [push]
 
 jobs:
-  lint:
-
+  install:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
-    - run: yarn install
-    - name: Run ESLint
-      run: yarn lint -f tap
-    - name: Check JSON and Markdown files
-      run: yarn prettier --check "**/*.{json,md}"
+      - uses: actions/checkout@v1
+      - name: Cache Dependencies
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install Dependencies
+        run: yarn install
+
+  lint:
+    needs: install
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Restore Dependencies from Cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Run ESLint
+        run: yarn lint
+      - name: Check Non-JS files
+        run: yarn prettier --check "**/*.{json,md,yml}"
 
   test:
-
+    needs: install
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
-    - run: yarn install
-    - name: Run Jest
-      run: yarn test
-      env:
-        CI: true
+      - uses: actions/checkout@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Restore Dependencies from Cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Run Jest
+        run: yarn test
+        env:
+          CI: true
