@@ -1,6 +1,6 @@
 {
   "name": "@movable/create-lint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Configure linting tools for Movable Ink through `yarn create`",
   "homepage": "https://github.com/movableink/lint-config/create-lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
@@ -9,7 +9,7 @@
   "private": false,
   "bin": "./bin/create-lint-config.js",
   "dependencies": {
-    "@movable/generator-lint-config": "^0.3.0",
+    "@movable/generator-lint-config": "^0.3.1",
     "yeoman-environment": "^2.7.0"
   }
 }

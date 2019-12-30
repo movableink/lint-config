@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.3.0...@movable/generator-lint-config@0.3.1) (2019-12-30)
+
+**Note:** Version bump only for package @movable/generator-lint-config
+
 # [0.3.0](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.2.0...@movable/generator-lint-config@0.3.0) (2019-12-20)
 
 ### Features
