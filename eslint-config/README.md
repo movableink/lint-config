@@ -2,16 +2,22 @@
 
 ## Installation
 
-To start using this package, add it to your `devDependencies` by running:
+The easiest way to set up this configuration is to leverage the Yeoman generator by running the following in the root of your project:
 
 ```bash
-yarn add -D @movable/eslint-config
+yarn create @movable/lint-config
 ```
 
-Note that ESLint and Prettier are both required to be in your `devDependencies` as well; you should add these yourself:
+This will ask you some questions about your project and set up the configuration for you based on the answers.
+
+---
+
+If you want to configure your project manually, you can do the following:
+
+Add this package, as well as ESLint and Prettier, to your `devDependencies` by running:
 
 ```bash
-yarn add -D eslint prettier
+yarn add -D @movable/eslint-config eslint prettier
 ```
 
 ## Configuration
