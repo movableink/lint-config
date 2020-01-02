@@ -12,7 +12,8 @@ module.exports = class extends Generator {
         default: [],
         choices: [
           { name: 'Base', value: 'base', disabled: 'Required' },
-          { name: 'Node', value: 'node' }
+          { name: 'Node', value: 'node' },
+          { name: 'Ember', value: 'ember' }
         ]
       }
     ]);
@@ -22,7 +23,8 @@ module.exports = class extends Generator {
     this.fs.copy(this.templatePath('eslintignore'), this.destinationPath('.eslintignore'));
 
     const additionalConfigs = [
-      ...(this.answers.types.includes('node') ? ['@movable/eslint-config/node'] : [])
+      ...(this.answers.types.includes('node') ? ['@movable/eslint-config/node'] : []),
+      ...(this.answers.types.includes('ember') ? ['@movable/eslint-config/ember'] : [])
     ];
 
     this.fs.writeJSON(this.destinationPath('.eslintrc.json'), {

@@ -26,6 +26,7 @@ A few ESLint configurations are provided, based on the kind of environment you a
 
 - [Base](./index.js')
 - [Node](./node.js')
+- [Ember](./ember.js')
 
 This sets up some shared rules, as well as configuring ESLint to run Prettier (so that both projects do not have to be run independently). You can extend from the base configuration like so:
 

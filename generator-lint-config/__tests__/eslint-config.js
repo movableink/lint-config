@@ -32,4 +32,14 @@ describe('generating config files', () => {
       extends: ['@movable/eslint-config', '@movable/eslint-config/node']
     });
   });
+
+  it('creates an Ember config', async () => {
+    await run().withPrompts({
+      types: ['ember']
+    });
+
+    assert.JSONFileContent('.eslintrc.json', {
+      extends: ['@movable/eslint-config', '@movable/eslint-config/ember']
+    });
+  });
 });
