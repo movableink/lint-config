@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.2.2...@movable/eslint-config@0.3.0) (2020-01-02)
+
+### Features
+
+- **eslint-config:** add Ember configuration file ([fd9ff52](https://github.com/movableink/lint-config/commit/fd9ff52456d0d0024bee053b280ea26d3330a30d))
+
 ## [0.2.2](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.2.1...@movable/eslint-config@0.2.2) (2019-12-30)
 
 **Note:** Version bump only for package @movable/eslint-config

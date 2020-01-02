@@ -1,13 +1,13 @@
 {
   "name": "@movable/eslint-config",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Shared ESLint configuration for Movable Ink",
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@movable/prettier-config": "^0.2.1",
+    "@movable/prettier-config": "^0.2.2",
     "babel-eslint": "^10.0.3",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-ember": "^7.7.2",
