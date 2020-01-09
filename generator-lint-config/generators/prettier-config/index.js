@@ -8,6 +8,6 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.yarnInstall(['@movable/prettier-config', 'prettier'], { dev: true });
+    this.yarnInstall(['@movable/prettier-config'], { dev: true });
   }
 };

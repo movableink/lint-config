@@ -5,5 +5,8 @@
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
 }

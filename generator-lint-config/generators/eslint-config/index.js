@@ -33,6 +33,6 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.yarnInstall(['@movable/eslint-config', 'eslint', 'prettier'], { dev: true });
+    this.yarnInstall(['@movable/eslint-config'], { dev: true });
   }
 };

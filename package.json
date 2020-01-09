@@ -15,12 +15,10 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "eslint": "^6.7.2",
     "husky": "^4.0.0",
     "jest": "^24.8.0",
     "lerna": "^3.19.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "lint-staged": "^9.5.0"
   },
   "prettier": "./prettier-config",
   "eslintConfig": {
