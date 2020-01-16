@@ -5,7 +5,8 @@ const Generator = require('yeoman-generator');
 function getAdditionalPackages(generator) {
   return [
     ...(generator.answers.types.includes('node') ? ['@movable/eslint-config-node'] : []),
-    ...(generator.answers.types.includes('ember') ? ['@movable/eslint-config-ember'] : [])
+    ...(generator.answers.types.includes('ember') ? ['@movable/eslint-config-ember'] : []),
+    ...(generator.answers.types.includes('react') ? ['@movable/eslint-config-react'] : [])
   ];
 }
 
@@ -20,7 +21,8 @@ module.exports = class extends Generator {
         choices: [
           { name: 'Base', value: 'base', disabled: 'Required' },
           { name: 'Node', value: 'node' },
-          { name: 'Ember', value: 'ember' }
+          { name: 'Ember', value: 'ember' },
+          { name: 'React', value: 'react' }
         ]
       }
     ]);

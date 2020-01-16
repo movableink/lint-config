@@ -42,4 +42,14 @@ describe('generating config files', () => {
       extends: ['@movable/eslint-config', '@movable/eslint-config-ember']
     });
   });
+
+  it('creates a React config', async () => {
+    await run().withPrompts({
+      types: ['react']
+    });
+
+    assert.JSONFileContent('.eslintrc.json', {
+      extends: ['@movable/eslint-config', '@movable/eslint-config-react']
+    });
+  });
 });

@@ -27,6 +27,7 @@ A few ESLint configurations are provided, based on the kind of environment you a
 - [Base (`@movable/eslint-config`)](./index.js')
 - [Node (`@movable/eslint-config-node`)](../node/index.js')
 - [Ember (`@movable/eslint-config-ember`)](../ember/index.js')
+- [React (`@movable/eslint-config-react`)](../react/index.js')
 
 This sets up some shared rules, as well as configuring ESLint to run Prettier (so that both projects do not have to be run independently). You can extend from the base configuration like so:
 
