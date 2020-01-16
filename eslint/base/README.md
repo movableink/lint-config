@@ -17,7 +17,7 @@ If you want to configure your project manually, you can do the following:
 Add this package, as well as ESLint and Prettier, to your `devDependencies` by running:
 
 ```bash
-yarn add -D @movable/eslint-config eslint prettier
+yarn add -D @movable/eslint-config
 ```
 
 ## Configuration
@@ -31,20 +31,18 @@ A few ESLint configurations are provided, based on the kind of environment you a
 
 This sets up some shared rules, as well as configuring ESLint to run Prettier (so that both projects do not have to be run independently). You can extend from the base configuration like so:
 
-```javascript
-// .eslintrc.js
-module.exports = {
-  extends: '@movable/eslint-config'
-};
+```json
+{
+  "extends": "@movable/eslint-config"
+}
 ```
 
 Environment-specific packages can be included as well to better suit different use-cases. Note that each one is its own Node dependency and must be installed individually.
 
-```javascript
-// .eslintrc.js
-module.exports = {
-  extends: ['@movable/eslint-config', '@movable/eslint-config-node']
-};
+```json
+{
+  "extends": ["@movable/eslint-config", "@movable/eslint-config-node"]
+}
 ```
 
 ## Linting Your Project
