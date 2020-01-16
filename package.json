@@ -2,7 +2,7 @@
   "name": "lint-config",
   "workspaces": [
     "create-lint-config",
-    "eslint-config",
+    "eslint/*",
     "generator-lint-config",
     "prettier-config"
   ],
@@ -23,8 +23,8 @@
   "prettier": "./prettier-config",
   "eslintConfig": {
     "extends": [
-      "./eslint-config",
-      "./eslint-config/node"
+      "./eslint/base",
+      "./eslint/base/node"
     ],
     "env": {
       "jest": true

@@ -4,7 +4,7 @@
 
 This repo contains shared configuration files for various static analysis tools. See the linked documentation below for more information on each.
 
-- [ESLint](./eslint-config/README.md)
+- [ESLint](./eslint/base/README.md)
 - [Prettier](./prettier-config/README.md)
 
 It also provides a [Yeoman generator](./generator-lint-config/READMD.md') that can be used to configure the above tools for you.
