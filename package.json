@@ -24,7 +24,7 @@
   "eslintConfig": {
     "extends": [
       "./eslint/base",
-      "./eslint/base/node"
+      "./eslint/node"
     ],
     "env": {
       "jest": true

@@ -1,0 +1,15 @@
+{
+  "name": "@movable/eslint-config-ember",
+  "version": "0.4.0",
+  "description": "Shared ESLint configuration for Ember projects at Movable Ink",
+  "repository": "https://github.com/movableink/lint-config",
+  "author": "Alex LaFroscia <alafroscia@movableink.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "eslint-plugin-ember": "^7.7.2"
+  },
+  "peerDependencies": {
+    "@movable/eslint-config": "*"
+  }
+}

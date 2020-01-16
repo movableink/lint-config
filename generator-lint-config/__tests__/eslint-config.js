@@ -29,7 +29,7 @@ describe('generating config files', () => {
     });
 
     assert.JSONFileContent('.eslintrc.json', {
-      extends: ['@movable/eslint-config', '@movable/eslint-config/node']
+      extends: ['@movable/eslint-config', '@movable/eslint-config-node']
     });
   });
 
@@ -39,7 +39,7 @@ describe('generating config files', () => {
     });
 
     assert.JSONFileContent('.eslintrc.json', {
-      extends: ['@movable/eslint-config', '@movable/eslint-config/ember']
+      extends: ['@movable/eslint-config', '@movable/eslint-config-ember']
     });
   });
 });
