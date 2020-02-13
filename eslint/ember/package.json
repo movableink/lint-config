@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "eslint-plugin-ember": "^7.7.2"
+    "eslint-plugin-ember": "^7.8.0"
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
