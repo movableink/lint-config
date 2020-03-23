@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  extends: ['plugin:react/recommended']
+  extends: ['plugin:react/recommended'],
 };

@@ -6,12 +6,12 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2019,
     ecmaFeatures: {
-      legacyDecorators: true
-    }
+      legacyDecorators: true,
+    },
   },
   plugins: ['prettier'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
-    es6: true
-  }
+    es6: true,
+  },
 };

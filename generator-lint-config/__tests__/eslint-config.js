@@ -19,37 +19,37 @@ describe('generating config files', () => {
     await run();
 
     assert.JSONFileContent('.eslintrc.json', {
-      extends: ['@movable/eslint-config']
+      extends: ['@movable/eslint-config'],
     });
   });
 
   it('creates a Node config', async () => {
     await run().withPrompts({
-      types: ['node']
+      types: ['node'],
     });
 
     assert.JSONFileContent('.eslintrc.json', {
-      extends: ['@movable/eslint-config', '@movable/eslint-config-node']
+      extends: ['@movable/eslint-config', '@movable/eslint-config-node'],
     });
   });
 
   it('creates an Ember config', async () => {
     await run().withPrompts({
-      types: ['ember']
+      types: ['ember'],
     });
 
     assert.JSONFileContent('.eslintrc.json', {
-      extends: ['@movable/eslint-config', '@movable/eslint-config-ember']
+      extends: ['@movable/eslint-config', '@movable/eslint-config-ember'],
     });
   });
 
   it('creates a React config', async () => {
     await run().withPrompts({
-      types: ['react']
+      types: ['react'],
     });
 
     assert.JSONFileContent('.eslintrc.json', {
-      extends: ['@movable/eslint-config', '@movable/eslint-config-react']
+      extends: ['@movable/eslint-config', '@movable/eslint-config-react'],
     });
   });
 });
