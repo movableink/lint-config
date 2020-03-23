@@ -1,6 +1,6 @@
 {
   "name": "@movable/eslint-config-node",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Shared ESLint configuration for Node projects at Movable Ink",
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
