@@ -1360,6 +1360,11 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
+"@movable/eslint-plugin-no-wildcard-postmessage@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@movable/eslint-plugin-no-wildcard-postmessage/-/eslint-plugin-no-wildcard-postmessage-1.0.0.tgz#528bea91b3097a374b462ea674bae52aa3075c34"
+  integrity sha512-hs3DbWwouTYDZWcNy4wd+BIUPFYXhI8vnY3sP5ZbXvxooZzNM5BemrJz08HKI25STqHJC0U3oOIVoolQyfK+mQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
