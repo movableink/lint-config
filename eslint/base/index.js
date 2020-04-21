@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   plugins: ['prettier'],
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:no-unsanitized/DOM'],
   env: {
     es6: true,
   },
