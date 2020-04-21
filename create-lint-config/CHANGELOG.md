@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.6](https://github.com/movableink/lint-config/compare/@movable/create-lint-config@0.3.5...@movable/create-lint-config@0.3.6) (2020-04-21)
+
+**Note:** Version bump only for package @movable/create-lint-config
+
 ## [0.3.5](https://github.com/movableink/lint-config/compare/@movable/create-lint-config@0.3.4...@movable/create-lint-config@0.3.5) (2020-03-23)
 
 **Note:** Version bump only for package @movable/create-lint-config

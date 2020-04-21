@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.5.1...@movable/eslint-config@0.6.0) (2020-04-21)
+
+### Features
+
+- add `no-unsanitized` plugin to base ESLint config ([82ff0ae](https://github.com/movableink/lint-config/commit/82ff0aeeb2df89b858121ba8824049e62fe55b91))
+- add `no-wildcard-postmessage` lint rule ([6845e3d](https://github.com/movableink/lint-config/commit/6845e3d7f0bfdcd515910a2b7afd53d1b6718b2e))
+
 ## [0.5.1](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.5.0...@movable/eslint-config@0.5.1) (2020-03-23)
 
 **Note:** Version bump only for package @movable/eslint-config
