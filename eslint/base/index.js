@@ -9,9 +9,12 @@ module.exports = {
       legacyDecorators: true,
     },
   },
-  plugins: ['prettier'],
+  plugins: ['@movable/no-wildcard-postmessage'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:no-unsanitized/DOM'],
   env: {
     es6: true,
+  },
+  rules: {
+    '@movable/no-wildcard-postmessage/no-wildcard-postmessage': 'error',
   },
 };
