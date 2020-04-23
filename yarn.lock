@@ -8585,10 +8585,10 @@ yeoman-assert@^3.1.0:
   resolved "https://registry.yarnpkg.com/yeoman-assert/-/yeoman-assert-3.1.1.tgz#9f6fa0ecba7dd007c40f579668cb5dda18c79343"
   integrity sha512-bCuLb/j/WzpvrJZCTdJJLFzm7KK8IYQJ3+dF9dYtNs2CUYyezFJDuULiZ2neM4eqjf45GN1KH/MzCTT3i90wUQ==
 
-yeoman-environment@^2.3.4, yeoman-environment@^2.8.1, yeoman-environment@^2.9.4:
-  version "2.9.4"
-  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-2.9.4.tgz#e07080ba537d9783431d665cbec3a2bad4b417f7"
-  integrity sha512-iWxGhG2G0wnFAWK12J925o5UCMpsyMS77cgyLwFoErS6lvC0N6SpvvYFYcYxFQKmKtxI7X+Hmpvg+Y+7hM4FPw==
+yeoman-environment@^2.3.4, yeoman-environment@^2.8.1, yeoman-environment@^2.9.5:
+  version "2.9.5"
+  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-2.9.5.tgz#372ff3f81bc6a979c6d7f7c9d7d8822088c6a805"
+  integrity sha512-ntxV8VTZbP8QFuJZGT7vG8AsKeyGz8lXlfq2V2T5sl6SrU6UAEVgRreEGz9t+JbFGx1CSM/Ly2atG/avGuheyQ==
   dependencies:
     chalk "^2.4.1"
     debug "^3.1.0"
