@@ -18,7 +18,7 @@
     "husky": "^4.2.5",
     "jest": "^25.4.0",
     "lerna": "^3.19.0",
-    "lint-staged": "^10.1.7"
+    "lint-staged": "^10.2.0"
   },
   "prettier": "./prettier-config",
   "eslintConfig": {
