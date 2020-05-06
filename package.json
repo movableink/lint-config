@@ -9,16 +9,19 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "release": "lerna publish --conventional-commits"
+    "release": "release-it"
   },
   "private": true,
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "@release-it/conventional-changelog": "^1.1.4",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "lerna": "^3.19.0",
-    "lint-staged": "^10.2.2"
+    "lint-staged": "^10.2.2",
+    "release-it": "^13.5.8",
+    "release-it-yarn-workspaces": "^1.4.0"
   },
   "prettier": "./prettier-config",
   "eslintConfig": {
@@ -47,6 +50,18 @@
   },
   "jest": {
     "testEnvironment": "node"
+  },
+  "release-it": {
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "CHANGELOG.md"
+      },
+      "release-it-yarn-workspaces": {
+        "publish": "false"
+      }
+    },
+    "npm": false
   },
   "volta": {
     "node": "12.16.1",
