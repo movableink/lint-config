@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.6.0...@movable/eslint-config@0.6.1) (2020-05-06)
+
+**Note:** Version bump only for package @movable/eslint-config
+
 # [0.6.0](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.5.1...@movable/eslint-config@0.6.0) (2020-04-21)
 
 ### Features
