@@ -20,6 +20,6 @@
   },
   "devDependencies": {
     "yeoman-assert": "^3.1.0",
-    "yeoman-test": "^2.5.0"
+    "yeoman-test": "^2.6.0"
   }
 }
