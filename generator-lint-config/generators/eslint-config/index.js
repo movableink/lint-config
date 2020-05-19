@@ -7,6 +7,9 @@ function getAdditionalPackages(generator) {
     ...(generator.answers.types.includes('node') ? ['@movable/eslint-config-node'] : []),
     ...(generator.answers.types.includes('ember') ? ['@movable/eslint-config-ember'] : []),
     ...(generator.answers.types.includes('react') ? ['@movable/eslint-config-react'] : []),
+    ...(generator.answers.types.includes('typescript')
+      ? ['@movable/eslint-config-typescript']
+      : []),
   ];
 }
 
@@ -23,6 +26,7 @@ module.exports = class extends Generator {
           { name: 'Node', value: 'node' },
           { name: 'Ember', value: 'ember' },
           { name: 'React', value: 'react' },
+          { name: 'TypeScript', value: 'typescript' },
         ],
       },
     ]);
