@@ -1,0 +1,19 @@
+{
+  "extends": ["./eslint/base", "./eslint/node"],
+  "overrides": [
+    {
+      "files": "**/__tests__/**/*.js",
+      "env": {
+        "jest": true
+      },
+      "rules": {
+        "node/no-extraneous-require": [
+          "error",
+          {
+            "allowModules": ["eslint"]
+          }
+        ]
+      }
+    }
+  ]
+}

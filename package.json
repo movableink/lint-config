@@ -21,15 +21,6 @@
     "lint-staged": "^10.2.4"
   },
   "prettier": "./prettier-config",
-  "eslintConfig": {
-    "extends": [
-      "./eslint/base",
-      "./eslint/node"
-    ],
-    "env": {
-      "jest": true
-    }
-  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
@@ -46,7 +37,10 @@
     ]
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "fixtures"
+    ]
   },
   "volta": {
     "node": "12.16.1",
