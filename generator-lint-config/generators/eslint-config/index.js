@@ -41,6 +41,13 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.yarnInstall(['@movable/eslint-config', ...getAdditionalPackages(this)], { dev: true });
+    const installOptions = { dev: true };
+    const pkg = this.fs.readJSON(this.destinationPath('package.json'));
+
+    if (pkg && pkg.workspaces) {
+      installOptions.ignoreWorkspaceRootCheck = true;
+    }
+
+    this.yarnInstall(['@movable/eslint-config', ...getAdditionalPackages(this)], installOptions);
   }
 };
