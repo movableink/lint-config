@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.6.3...@movable/generator-lint-config@0.7.0) (2020-05-19)
+
+### Features
+
+- add TypeScript configuration ([8995862](https://github.com/movableink/lint-config/commit/8995862b68d99446fb9631016107799f9c0523cb))
+
 ## [0.6.3](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.6.2...@movable/generator-lint-config@0.6.3) (2020-05-06)
 
 **Note:** Version bump only for package @movable/generator-lint-config

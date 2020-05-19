@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/movableink/lint-config/compare/@movable/eslint-config-react@0.5.1...@movable/eslint-config-react@0.6.0) (2020-05-19)
+
+### Features
+
+- upgrade base React config ([e54ff30](https://github.com/movableink/lint-config/commit/e54ff3077a581652a9c44c8dddd74430c6ef35af))
+
 ## [0.5.1](https://github.com/movableink/lint-config/compare/@movable/eslint-config-react@0.5.0...@movable/eslint-config-react@0.5.1) (2020-03-23)
 
 **Note:** Version bump only for package @movable/eslint-config-react
