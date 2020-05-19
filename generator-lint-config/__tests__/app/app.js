@@ -5,7 +5,7 @@ const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
 
 beforeAll(() => {
-  return helpers.run(path.join(__dirname, '../generators/app'));
+  return helpers.run(path.join(__dirname, '../../generators/app'));
 });
 
 test('it runs the ESLint generator', () => {
