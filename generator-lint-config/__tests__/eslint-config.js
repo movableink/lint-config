@@ -52,4 +52,14 @@ describe('generating config files', () => {
       extends: ['@movable/eslint-config', '@movable/eslint-config-react'],
     });
   });
+
+  it('creates a TypeScript config', async () => {
+    await run().withPrompts({
+      types: ['typescript'],
+    });
+
+    assert.JSONFileContent('.eslintrc.json', {
+      extends: ['@movable/eslint-config', '@movable/eslint-config-typescript'],
+    });
+  });
 });

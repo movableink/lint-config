@@ -1,0 +1,16 @@
+{
+  "name": "@movable/eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "Shared ESLint configuration for TypeScript projects at Movable Ink",
+  "repository": "https://github.com/movableink/lint-config",
+  "author": "Alex LaFroscia <alafroscia@movableink.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
