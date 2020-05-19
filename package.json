@@ -21,15 +21,6 @@
     "lint-staged": "^10.2.4"
   },
   "prettier": "./prettier-config",
-  "eslintConfig": {
-    "extends": [
-      "./eslint/base",
-      "./eslint/node"
-    ],
-    "env": {
-      "jest": true
-    }
-  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",

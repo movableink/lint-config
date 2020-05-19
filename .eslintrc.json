@@ -1,0 +1,6 @@
+{
+  "extends": ["./eslint/base", "./eslint/node"],
+  "env": {
+    "jest": true
+  }
+}
