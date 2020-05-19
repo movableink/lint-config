@@ -37,7 +37,10 @@
     ]
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "fixtures"
+    ]
   },
   "volta": {
     "node": "12.16.1",

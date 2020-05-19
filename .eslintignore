@@ -1,2 +1,7 @@
 coverage
+
+// Files may not be valid JS, as they include placeholders
 generator-lint-config/**/templates
+
+// Fixtures might intentionally fail linting
+**/fixtures/**
