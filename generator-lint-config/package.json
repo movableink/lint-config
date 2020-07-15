@@ -21,6 +21,6 @@
   "devDependencies": {
     "fs-extra": "^9.0.1",
     "yeoman-assert": "^3.1.0",
-    "yeoman-test": "^2.6.0"
+    "yeoman-test": "^2.7.0"
   }
 }
