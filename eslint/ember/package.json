@@ -1,6 +1,6 @@
 {
   "name": "@movable/eslint-config-ember",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Shared ESLint configuration for Ember projects at Movable Ink",
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",

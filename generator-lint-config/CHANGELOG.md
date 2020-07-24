@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.7.0...@movable/generator-lint-config@0.7.1) (2020-07-24)
+
+### Bug Fixes
+
+- ignore workspace root if necessary ([9c6cb0d](https://github.com/movableink/lint-config/commit/9c6cb0d15b7991d949e3a30f08c962e0b8b9030c)), closes [#134](https://github.com/movableink/lint-config/issues/134)
+
 # [0.7.0](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.6.3...@movable/generator-lint-config@0.7.0) (2020-05-19)
 
 ### Features
