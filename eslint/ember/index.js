@@ -32,6 +32,8 @@ module.exports = {
     },
     {
       files: ['**/tests/**'],
+      plugins: ['qunit'],
+      extends: ['plugin:qunit/recommended'],
       rules: {
         // We don't _really_ care of test stubs leak state
         'ember/avoid-leaking-state-in-ember-objects': 'off',
