@@ -33,8 +33,18 @@ module.exports = class extends Generator {
   }
 
   writing() {
+    // Configure `lint-staged` to run ESLint
+    const pkg = this.fs.readJSON(this.destinationPath('package.json'));
+    pkg['lint-staged'] = pkg['lint-staged'] || {};
+    pkg['lint-staged'] = {
+      '*.js': 'eslint --fix',
+    };
+    this.fs.writeJSON(this.destinationPath('package.json'), pkg);
+
+    // Configure ESLint ignore
     this.fs.copy(this.templatePath('eslintignore'), this.destinationPath('.eslintignore'));
 
+    // Set ESLint config
     this.fs.writeJSON(this.destinationPath('.eslintrc.json'), {
       extends: ['@movable/eslint-config', ...getAdditionalPackages(this)],
     });

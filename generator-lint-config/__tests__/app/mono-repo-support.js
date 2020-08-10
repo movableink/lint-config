@@ -17,12 +17,14 @@ beforeAll(() => {
     .withOptions({ 'skip-install': false });
 }, TIMEOUT_MS);
 
-test('it installs the ESLint config', () => {
+test('it installs the expected packages in the workspace root', () => {
+  // ESLint install works correctly
   assert.fileContent('package.json', '@movable/eslint-config');
-  assert.fileContent('package.json', '@movable/prettier-config');
-});
 
-test('it installs the Prettier config', () => {
-  assert.fileContent('package.json', '@movable/eslint-config');
+  // Prettier install works correctly
   assert.fileContent('package.json', '@movable/prettier-config');
+
+  // Husky/lint-staged install works correctly
+  assert.fileContent('package.json', 'husky');
+  assert.fileContent('package.json', 'lint-staged');
 });
