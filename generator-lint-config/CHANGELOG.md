@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.7.1...@movable/generator-lint-config@0.8.0) (2020-08-10)
+
+### Features
+
+- configure Husky and lint-staged automatically ([99afe80](https://github.com/movableink/lint-config/commit/99afe80087f88b3e7bcbb7319478c540005cf75c)), closes [#204](https://github.com/movableink/lint-config/issues/204)
+
 ## [0.7.1](https://github.com/movableink/lint-config/compare/@movable/generator-lint-config@0.7.0...@movable/generator-lint-config@0.7.1) (2020-07-24)
 
 ### Bug Fixes
