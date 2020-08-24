@@ -21,6 +21,11 @@ module.exports = {
     'ember/require-return-from-computed': 0,
     'ember/use-brace-expansion': 0,
   },
+  globals: {
+    // Ensure that `fetch` is imported from `ember-fetch`
+    // https://github.com/ember-cli/ember-fetch
+    fetch: 'off',
+  },
   overrides: [
     {
       files: ['**/mirage/**'],
