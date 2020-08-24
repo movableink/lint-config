@@ -6,7 +6,6 @@ const {
 
 module.exports = {
   extends: ['plugin:ember/recommended'],
-  root: false,
   rules: {
     'ember/avoid-leaking-state-in-ember-objects': [
       'error',
