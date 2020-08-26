@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.10.0",
-    "@typescript-eslint/parser": "^3.10.0"
+    "@typescript-eslint/parser": "^3.10.1"
   },
   "devDependencies": {
     "typescript": "^4.0.2"
