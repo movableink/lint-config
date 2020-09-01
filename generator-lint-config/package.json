@@ -16,7 +16,7 @@
     "generators"
   ],
   "dependencies": {
-    "yeoman-generator": "^4.11.0"
+    "yeoman-generator": "^4.12.0"
   },
   "devDependencies": {
     "fs-extra": "^9.0.1",
