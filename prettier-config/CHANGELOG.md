@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.4](https://github.com/movableink/lint-config/compare/@movable/prettier-config@0.3.3...@movable/prettier-config@0.3.4) (2020-09-15)
+
+**Note:** Version bump only for package @movable/prettier-config
+
 ## [0.3.3](https://github.com/movableink/lint-config/compare/@movable/prettier-config@0.3.2...@movable/prettier-config@0.3.3) (2020-08-25)
 
 **Note:** Version bump only for package @movable/prettier-config
