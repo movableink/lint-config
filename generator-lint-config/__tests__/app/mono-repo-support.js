@@ -5,7 +5,8 @@ const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
 const fs = require('fs-extra');
 
-const TIMEOUT_MS = 10000;
+const seconds = (ms) => ms * 1000;
+const TIMEOUT_MS = seconds(30);
 
 beforeAll(() => {
   return helpers
