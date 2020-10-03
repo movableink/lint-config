@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "eslint-plugin-react": "^7.21.2"
+    "eslint-plugin-react": "^7.21.3"
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
