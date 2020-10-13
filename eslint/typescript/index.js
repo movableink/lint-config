@@ -11,16 +11,12 @@ module.exports = {
       extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'],
       plugins: ['@typescript-eslint'],
       rules: {
+        '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
-    {
-      files: ['**/tests/**/*.{js,jsx,ts,tsx}'],
-      rules: {
-        '@typescript-eslint/no-empty-function': 'off',
       },
     },
   ],
