@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/movableink/lint-config/compare/@movable/eslint-config-typescript@0.1.5...@movable/eslint-config-typescript@0.2.0) (2020-10-13)
+
+### Features
+
+- update typescript lint config ([991fccd](https://github.com/movableink/lint-config/commit/991fccd0eb93f2f06f5d6a4bc7e27e1ecd6ebc2a))
+
 ## [0.1.5](https://github.com/movableink/lint-config/compare/@movable/eslint-config-typescript@0.1.4...@movable/eslint-config-typescript@0.1.5) (2020-09-15)
 
 **Note:** Version bump only for package @movable/eslint-config-typescript
