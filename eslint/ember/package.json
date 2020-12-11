@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "eslint-plugin-ember": "^7.11.0",
-    "eslint-plugin-qunit": "^5.1.0"
+    "eslint-plugin-qunit": "^5.1.1"
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
