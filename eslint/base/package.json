@@ -1,6 +1,6 @@
 {
   "name": "@movable/eslint-config",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Shared ESLint configuration for Movable Ink",
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "@movable/eslint-plugin-no-wildcard-postmessage": "^1.0.0",
-    "@movable/prettier-config": "^0.3.5",
+    "@movable/prettier-config": "^0.3.6",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.2.0",
