@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits",
+    "postinstall": "husky install"
   },
   "private": true,
   "devDependencies": {
@@ -21,12 +22,6 @@
     "lint-staged": "^10.5.3"
   },
   "prettier": "./prettier-config",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": "eslint --fix",
     "*.{json,md,yml}": "prettier --write"
