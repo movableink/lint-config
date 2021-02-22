@@ -6,7 +6,7 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['plugin:react/recommended', 'prettier/react'],
+  extends: ['plugin:react/recommended'],
   plugins: ['react'],
   rules: {
     'react/prop-types': 'off',
