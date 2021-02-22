@@ -8,7 +8,7 @@ module.exports = {
     {
       files: ['**/*.{ts,tsx}'],
       parser: '@typescript-eslint/parser',
-      extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'],
+      extends: ['plugin:@typescript-eslint/recommended'],
       plugins: ['@typescript-eslint'],
       rules: {
         '@typescript-eslint/ban-ts-comment': 'off',
