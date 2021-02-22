@@ -21,6 +21,10 @@
     "lerna": "^3.22.1",
     "lint-staged": "^10.5.4"
   },
+  "resolutions": {
+    "**/yeoman-test/yeoman-environment": "^3.0.0",
+    "**/yeoman-test/yeoman-generator": "^5.0.0"
+  },
   "prettier": "./prettier-config",
   "lint-staged": {
     "*.js": "eslint --fix",
@@ -29,7 +33,12 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
+    ],
+    "rules": {
+      "header-max-length": [
+        0
+      ]
+    }
   },
   "jest": {
     "testEnvironment": "node",
