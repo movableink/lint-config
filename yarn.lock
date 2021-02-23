@@ -9784,47 +9784,6 @@ yeoman-assert@^3.1.0:
   resolved "https://registry.yarnpkg.com/yeoman-assert/-/yeoman-assert-3.1.1.tgz#9f6fa0ecba7dd007c40f579668cb5dda18c79343"
   integrity sha512-bCuLb/j/WzpvrJZCTdJJLFzm7KK8IYQJ3+dF9dYtNs2CUYyezFJDuULiZ2neM4eqjf45GN1KH/MzCTT3i90wUQ==
 
-yeoman-environment@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-3.0.0.tgz#e071c2bc609248859fb624eae08116237dbcaaaf"
-  integrity sha512-9qqkOgByLpF9jFX4JjrI+vaXGC8R/WL3oQFhsDUL33N66bWU+gsUre6WsbZzrw6AaGTjBqoOg0okEQ4SbFBblA==
-  dependencies:
-    "@npmcli/arborist" "^2.2.2"
-    are-we-there-yet "^1.1.5"
-    arrify "^2.0.1"
-    chalk "^4.1.0"
-    cli-table "^0.3.1"
-    commander "7.1.0"
-    dateformat "^4.5.0"
-    debug "^4.1.1"
-    diff "^5.0.0"
-    error "^10.4.0"
-    escape-string-regexp "^4.0.0"
-    execa "^5.0.0"
-    find-up "^5.0.0"
-    globby "^11.0.1"
-    grouped-queue "^2.0.0"
-    inquirer "^7.1.0"
-    is-scoped "^2.1.0"
-    istextorbinary "^5.7.0"
-    lodash "^4.17.10"
-    log-symbols "^4.0.0"
-    mem-fs "^1.1.0"
-    mem-fs-editor "^8.0.0"
-    minimatch "^3.0.4"
-    npmlog "^4.1.2"
-    pacote "^11.2.6"
-    pipeline-pipe "^0.1.5"
-    preferred-pm "^3.0.3"
-    pretty-bytes "^5.3.0"
-    read-chunk "^3.2.0"
-    semver "^7.1.3"
-    slash "^3.0.0"
-    strip-ansi "^6.0.0"
-    text-table "^0.2.0"
-    through2 "^4.0.2"
-    untildify "^4.0.0"
-
 yeoman-environment@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-3.0.1.tgz#7e3189ee9ecda1cd77c08dec17694c5857a5f080"
@@ -9866,7 +9825,7 @@ yeoman-environment@^3.0.1:
     through2 "^4.0.2"
     untildify "^4.0.0"
 
-yeoman-generator@^5.0.0, yeoman-generator@^5.0.1:
+yeoman-generator@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/yeoman-generator/-/yeoman-generator-5.0.1.tgz#6ccf6157868a512a9cf5d4f315da1682f7fc34ce"
   integrity sha512-v6MOgSuJdAcV8WGb5yQq2t2ldpFXiJQnFI/0bq/j5qbMZ8gzaoyL4sTfZ/2JkD7SN7vJbCyYn47bhjkTrNXnHg==
