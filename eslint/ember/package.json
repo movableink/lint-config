@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "eslint-plugin-ember": "^7.11.0",
+    "eslint-plugin-ember": "^10.2.0",
     "eslint-plugin-qunit": "^5.3.0"
   },
   "peerDependencies": {
