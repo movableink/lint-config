@@ -62,7 +62,7 @@ module.exports = {
     'ember/order-in-routes': 'off',
     'ember/require-computed-macros': 'off',
     'ember/require-computed-property-dependencies': 'off',
-    'ember/require-super-in-init': 'error',
+    'ember/require-super-in-lifecycle-hooks': 'error',
     'ember/require-tagless-components': 'off',
     'ember/route-path-style': 'off',
     'ember/routes-segments-snake-case': 'error',
