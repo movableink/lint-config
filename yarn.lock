@@ -9821,10 +9821,10 @@ yeoman-assert@^3.1.0:
   resolved "https://registry.yarnpkg.com/yeoman-assert/-/yeoman-assert-3.1.1.tgz#9f6fa0ecba7dd007c40f579668cb5dda18c79343"
   integrity sha512-bCuLb/j/WzpvrJZCTdJJLFzm7KK8IYQJ3+dF9dYtNs2CUYyezFJDuULiZ2neM4eqjf45GN1KH/MzCTT3i90wUQ==
 
-yeoman-environment@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-3.0.1.tgz#7e3189ee9ecda1cd77c08dec17694c5857a5f080"
-  integrity sha512-RNrjeBMdquhYCa6JqWcotPP+9BkX4NltfBHeEwolgjCH+tkMlYcnIgdGL+rixKCic9E6RSqUO8SHXXQL/bwe+Q==
+yeoman-environment@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-3.1.0.tgz#075adfc8ee3db51e1bd16a80dfebc283990fae07"
+  integrity sha512-5urqQgOloTf7HTvGGW9NbVCCoHDHy3UMMLlHvBf562S0rtfiWbb0r3XCKxhQ1ftVNX2nX430kM5xZRXg6mD33A==
   dependencies:
     "@npmcli/arborist" "^2.2.2"
     are-we-there-yet "^1.1.5"
