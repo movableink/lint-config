@@ -10,6 +10,6 @@
   "bin": "./bin/create-lint-config.js",
   "dependencies": {
     "@movable/generator-lint-config": "^0.8.3",
-    "yeoman-environment": "^3.1.0"
+    "yeoman-environment": "^3.2.0"
   }
 }
