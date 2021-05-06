@@ -2,12 +2,16 @@
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
+    // Shared ESLint options
     ecmaVersion: 2019,
     ecmaFeatures: {
       legacyDecorators: true,
     },
+
+    // Babel-specific options
+    requireConfigFile: false,
   },
   plugins: ['@movable/no-wildcard-postmessage'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:no-unsanitized/DOM'],
