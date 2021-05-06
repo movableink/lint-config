@@ -12,6 +12,9 @@ module.exports = {
 
     // Babel-specific options
     requireConfigFile: false,
+    babelOptions: {
+      plugins: [[require.resolve('@babel/plugin-proposal-decorators'), { legacy: true }]],
+    },
   },
   plugins: ['@movable/no-wildcard-postmessage'],
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:no-unsanitized/DOM'],
