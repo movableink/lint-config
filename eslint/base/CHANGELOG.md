@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.12](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.6.11...@movable/eslint-config@0.6.12) (2021-05-06)
+
+### Bug Fixes
+
+- **base:** correctly support decorators ([d796ce1](https://github.com/movableink/lint-config/commit/d796ce19d277a2ec0b1a5c0e9298921988ed39d3))
+
 ## [0.6.11](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.6.10...@movable/eslint-config@0.6.11) (2021-05-06)
 
 **Note:** Version bump only for package @movable/eslint-config
