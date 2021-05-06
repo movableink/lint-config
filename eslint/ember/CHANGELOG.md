@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.5](https://github.com/movableink/lint-config/compare/@movable/eslint-config-ember@0.6.4...@movable/eslint-config-ember@0.6.5) (2021-05-06)
+
+**Note:** Version bump only for package @movable/eslint-config-ember
+
 ## [0.6.4](https://github.com/movableink/lint-config/compare/@movable/eslint-config-ember@0.6.3...@movable/eslint-config-ember@0.6.4) (2021-03-02)
 
 ### Bug Fixes
