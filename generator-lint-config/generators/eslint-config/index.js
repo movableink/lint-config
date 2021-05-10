@@ -62,6 +62,9 @@ module.exports = class extends Generator {
       installOptions.ignoreWorkspaceRootCheck = true;
     }
 
-    this.yarnInstall(['@movable/eslint-config', ...getAdditionalPackages(this)], installOptions);
+    this.yarnInstall(
+      ['@movable/eslint-config', 'eslint', ...getAdditionalPackages(this)],
+      installOptions
+    );
   }
 };

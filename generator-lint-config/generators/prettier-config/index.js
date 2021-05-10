@@ -19,6 +19,6 @@ module.exports = class extends Generator {
       installOptions.ignoreWorkspaceRootCheck = true;
     }
 
-    this.yarnInstall(['@movable/prettier-config'], installOptions);
+    this.yarnInstall(['@movable/prettier-config', 'prettier'], installOptions);
   }
 };

@@ -6,7 +6,7 @@
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "prettier": "^2.3.0"
+  "peerDependencies": {
+    "prettier": "^2"
   }
 }
