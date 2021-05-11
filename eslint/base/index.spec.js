@@ -28,3 +28,11 @@ test('it parses a file with decorators', async () => {
 
   expect(getParsingErrors(error.messages)).toEqual([]);
 });
+
+test('it parses top-level await', async () => {
+  const [error] = await eslint.lintText(`
+    await Promise.resolve();
+  `);
+
+  expect(getParsingErrors(error.messages)).toEqual([]);
+});
