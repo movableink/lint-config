@@ -13,7 +13,7 @@ module.exports = {
     // Babel-specific options
     requireConfigFile: false,
     babelOptions: {
-      plugins: [[require.resolve('@babel/plugin-proposal-decorators'), { legacy: true }]],
+      plugins: [[require.resolve('@babel/plugin-syntax-decorators'), { legacy: true }]],
     },
   },
   plugins: ['@movable/no-wildcard-postmessage'],
