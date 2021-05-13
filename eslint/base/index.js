@@ -2,7 +2,7 @@
 
 module.exports = {
   root: true,
-  parser: '@babel/eslint-parser',
+  parser: require.resolve('@babel/eslint-parser'),
   parserOptions: {
     // Shared ESLint options
     ecmaVersion: 2019,
