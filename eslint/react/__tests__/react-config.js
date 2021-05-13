@@ -9,11 +9,6 @@ test('it uses the right basic configuration', async () => {
     path.resolve(__dirname, './fixtures/normal-project/index.js')
   );
 
-  expect(config.parserOptions.ecmaFeatures).toEqual({
-    jsx: true,
-    legacyDecorators: true,
-  });
-
   expect(config.rules['prettier/prettier']).toEqual(['error']);
 
   expect(config.settings).toEqual({
@@ -30,4 +25,22 @@ test('it uses the right test configuration', async () => {
   );
 
   expect(config.rules['react/jsx-props-no-spreading']).toEqual(['off']);
+});
+
+test('it configures JSX parsing', async () => {
+  const eslint = new ESLint({
+    overrideConfig: {
+      settings: {
+        react: {
+          // A warning is printed due to `react` not being a dependency if we leave the original `detect` setting
+          version: '16',
+        },
+      },
+    },
+  });
+  const [result] = await eslint.lintFiles(
+    path.resolve(__dirname, './fixtures/normal-project/index.js')
+  );
+
+  expect(result.messages).toEqual([]);
 });

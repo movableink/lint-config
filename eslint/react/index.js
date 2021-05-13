@@ -2,8 +2,8 @@
 
 module.exports = {
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
+    babelOptions: {
+      plugins: [require.resolve('@babel/plugin-syntax-jsx')],
     },
   },
   extends: ['plugin:react/recommended'],
