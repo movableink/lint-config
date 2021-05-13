@@ -17,12 +17,4 @@ module.exports = {
       version: 'detect',
     },
   },
-  overrides: [
-    {
-      files: ['**/tests/**/*.{js,jsx,ts,tsx}'],
-      rules: {
-        'react/jsx-props-no-spreading': 'off',
-      },
-    },
-  ],
 };

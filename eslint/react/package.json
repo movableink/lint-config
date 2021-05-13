@@ -12,6 +12,9 @@
   "peerDependencies": {
     "@movable/eslint-config": "*"
   },
+  "devDependencies": {
+    "file-fixture-factory": "^1.0.1"
+  },
   "volta": {
     "extends": "../../package.json"
   }
