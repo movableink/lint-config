@@ -8,5 +8,8 @@
   "private": false,
   "peerDependencies": {
     "prettier": "^2"
+  },
+  "volta": {
+    "extends": "../package.json"
   }
 }

@@ -12,5 +12,8 @@
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }
