@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/movableink/lint-config/compare/@movable/eslint-config@1.0.0...@movable/eslint-config@2.0.0) (2021-05-24)
+
+### chore
+
+- remove `eslint` as dependency of the base config ([f93c969](https://github.com/movableink/lint-config/commit/f93c969db366f194cd61379629de9c57e273ccb4))
+
+### BREAKING CHANGES
+
+- `eslint` now must be installed as a peer dependency of the base config. This
+  change was intended for the `1.0.0` release, but actually removing the dependency was missed.
+
 ## [0.6.12](https://github.com/movableink/lint-config/compare/@movable/eslint-config@0.6.11...@movable/eslint-config@0.6.12) (2021-05-06)
 
 ### Bug Fixes
