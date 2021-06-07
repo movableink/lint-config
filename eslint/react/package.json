@@ -8,7 +8,7 @@
   "private": false,
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.12.13",
-    "eslint-plugin-react": "^7.23.2"
+    "eslint-plugin-react": "^7.24.0"
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
