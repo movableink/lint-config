@@ -16,7 +16,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "eslint": "^7.29.0",
+    "eslint": "^7.30.0",
     "husky": "^6.0.0",
     "jest": "^27.0.6",
     "lerna": "^4.0.0",
