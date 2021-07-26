@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@babel/core": "^7.14.6",
+    "@babel/core": "^7.14.8",
     "@babel/eslint-parser": "^7.14.7",
     "@babel/plugin-syntax-decorators": "^7.14.5",
     "@babel/plugin-syntax-top-level-await": "^7.14.5",
