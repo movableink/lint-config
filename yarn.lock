@@ -8079,10 +8079,10 @@ yeoman-environment@^3.2.0:
     through2 "^4.0.2"
     untildify "^4.0.0"
 
-yeoman-generator@^5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/yeoman-generator/-/yeoman-generator-5.4.0.tgz#2121966fcd9a9ae8ee50f158df27846308fc3ad9"
-  integrity sha512-ZOzoe8pAenTw8q7X3TdG3u5S7EM/ErCNue7Jvcb/ZDfank6Nnu3J249PtgTbyAuN+VYVZ/VVFIAJxjlrqJpldQ==
+yeoman-generator@^5.4.2:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/yeoman-generator/-/yeoman-generator-5.4.2.tgz#ad1ad7bf7c9771a8bbf07ead2eec79ebcdc51a20"
+  integrity sha512-xgS3A4r5VoEYq3vPdk1fWPVZ30y5NHlT2hn0OEyhKG79xojCtPkPkfWcKQamgvC9QLhaotVGvambBxwxwBeDTg==
   dependencies:
     chalk "^4.1.0"
     dargs "^7.0.0"
