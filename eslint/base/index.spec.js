@@ -1,6 +1,7 @@
 const { ESLint } = require('eslint');
 
 const eslint = new ESLint({
+  cwd: __dirname,
   baseConfig: require('./index'),
   useEslintrc: false,
 });
