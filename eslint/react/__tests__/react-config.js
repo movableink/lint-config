@@ -29,6 +29,7 @@ test('it uses the right test configuration', async () => {
 
 test('it configures JSX parsing', async () => {
   const eslint = new ESLint({
+    ignore: false,
     overrideConfig: {
       settings: {
         react: {

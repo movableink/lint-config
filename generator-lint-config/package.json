@@ -6,7 +6,6 @@
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
   "repository": "https://github.com/movableink/lint-config",
   "license": "MIT",
-  "private": false,
   "main": "generators/app/index.js",
   "keywords": [
     "lint-config",

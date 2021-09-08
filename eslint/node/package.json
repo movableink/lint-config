@@ -5,7 +5,6 @@
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
   "license": "MIT",
-  "private": false,
   "dependencies": {
     "eslint-plugin-node": "^11.1.0"
   },

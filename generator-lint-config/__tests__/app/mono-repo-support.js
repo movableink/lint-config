@@ -18,7 +18,8 @@ beforeAll(() => {
     .withOptions({ 'skip-install': false });
 }, TIMEOUT_MS);
 
-test('it installs the expected packages in the workspace root', () => {
+// TODO: Un-skip once we have a way to do installs that are safe with Yarn 2
+test.skip('it installs the expected packages in the workspace root', () => {
   // ESLint install works correctly
   assert.fileContent('package.json', '@movable/eslint-config');
 
