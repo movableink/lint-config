@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/plugin-syntax-jsx": "^7.14.5",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.25.1"
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
