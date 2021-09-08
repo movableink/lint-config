@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
+    "release": "release-it",
     "postinstall": "husky install"
   },
   "private": true,
@@ -19,7 +20,9 @@
     "husky": "^7.0.2",
     "jest": "^27.0.6",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "release-it": "^14.11.5",
+    "release-it-yarn-workspaces": "^2.0.1"
   },
   "prettier": "./prettier-config",
   "lint-staged": {
@@ -41,6 +44,12 @@
     "testPathIgnorePatterns": [
       "fixtures"
     ]
+  },
+  "release-it": {
+    "plugins": {
+      "release-it-yarn-workspaces": true
+    },
+    "npm": false
   },
   "packageManager": "yarn@3.0.2",
   "volta": {
