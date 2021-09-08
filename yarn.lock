@@ -1694,7 +1694,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@movable/eslint-config-ember@workspace:eslint/ember"
   dependencies:
-    eslint-plugin-ember: ^10.5.1
+    eslint-plugin-ember: ^10.5.4
     eslint-plugin-qunit: ^6.2.0
   peerDependencies:
     "@movable/eslint-config": "*"
@@ -4128,9 +4128,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ember@npm:^10.5.1":
-  version: 10.5.1
-  resolution: "eslint-plugin-ember@npm:10.5.1"
+"eslint-plugin-ember@npm:^10.5.4":
+  version: 10.5.4
+  resolution: "eslint-plugin-ember@npm:10.5.4"
   dependencies:
     "@ember-data/rfc395-data": ^0.0.4
     css-tree: ^1.0.0-alpha.39
@@ -4141,7 +4141,7 @@ __metadata:
     snake-case: ^3.0.3
   peerDependencies:
     eslint: ">= 6"
-  checksum: c38ccf8fa6b6dda04e91b2e1e9b1462e305795c878dddc63525c34af6e064f69a82c27ef89c0d0f0afa0ceeeab169b9b85125402183bc57c2e57df95134d00fa
+  checksum: 7cdcd271d12df43cdd6ee9bfa4e1e586a70bbea34e164006ad95b57c2b2913c44b6e627c7a2894735f1b0745a4babc1ff254f8b3643e4170cacddd23511099c7
   languageName: node
   linkType: hard
 
