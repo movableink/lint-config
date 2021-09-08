@@ -20,6 +20,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install Dependencies
         run: yarn install
+      - name: Prevent Duplicate Dependencies
+        run: yarn dedupe --check
       - name: Run ESLint
         run: yarn lint
       - name: Check Non-JS files
