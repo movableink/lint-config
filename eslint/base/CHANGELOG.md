@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/movableink/lint-config/compare/@movable/eslint-config@2.0.1...@movable/eslint-config@2.0.2) (2022-07-06)
+
+### Bug Fixes
+
+- dependency minor and patch bumps ([1e39d5e](https://github.com/movableink/lint-config/commit/1e39d5efd759c0028e8cf392ce197b38f7815421))
+
 ## [2.0.1](https://github.com/movableink/lint-config/compare/@movable/eslint-config@2.0.0...@movable/eslint-config@2.0.1) (2021-09-10)
 
 **Note:** Version bump only for package @movable/eslint-config

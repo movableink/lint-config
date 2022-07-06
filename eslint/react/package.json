@@ -1,6 +1,6 @@
 {
   "name": "@movable/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared ESLint configuration for React projects at Movable Ink",
   "repository": "https://github.com/movableink/lint-config",
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
