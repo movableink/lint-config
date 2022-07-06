@@ -14,14 +14,14 @@
   },
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "eslint": "^7.31.0",
-    "husky": "^7.0.2",
-    "jest": "^27.0.6",
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "eslint": "^7.32.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
     "lerna": "^4.0.0",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2"
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.7.1"
   },
   "prettier": "./prettier-config",
   "lint-staged": {
@@ -46,7 +46,7 @@
   },
   "packageManager": "yarn@3.0.2",
   "volta": {
-    "node": "12.16.1",
+    "node": "14.19.3",
     "yarn": "1.22.4"
   }
 }

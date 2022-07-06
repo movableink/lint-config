@@ -6,8 +6,8 @@
   "author": "Alex LaFroscia <alafroscia@movableink.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/plugin-syntax-jsx": "^7.14.5",
-    "eslint-plugin-react": "^7.25.1"
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "eslint-plugin-react": "^7.30.1"
   },
   "peerDependencies": {
     "@movable/eslint-config": "*"
