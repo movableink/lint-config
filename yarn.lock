@@ -1683,7 +1683,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@movable/create-lint-config@workspace:create-lint-config"
   dependencies:
-    "@movable/generator-lint-config": ^1.0.1
+    "@movable/generator-lint-config": ^1.0.2
     yeoman-environment: ^3.2.0
   bin:
     create-lint-config: ./bin/create-lint-config.js
@@ -1741,7 +1741,7 @@ __metadata:
     "@babel/plugin-syntax-decorators": ^7.14.5
     "@babel/plugin-syntax-top-level-await": ^7.14.5
     "@movable/eslint-plugin-no-wildcard-postmessage": ^1.0.0
-    "@movable/prettier-config": ^1.0.0
+    "@movable/prettier-config": ^1.0.1
     eslint-config-prettier: ^8.3.0
     eslint-plugin-no-unsanitized: ^3.1.5
     eslint-plugin-prettier: ^4.0.0
@@ -1758,7 +1758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@movable/generator-lint-config@^1.0.1, @movable/generator-lint-config@workspace:generator-lint-config":
+"@movable/generator-lint-config@^1.0.2, @movable/generator-lint-config@workspace:generator-lint-config":
   version: 0.0.0-use.local
   resolution: "@movable/generator-lint-config@workspace:generator-lint-config"
   dependencies:
@@ -1770,7 +1770,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@movable/prettier-config@^1.0.0, @movable/prettier-config@workspace:prettier-config":
+"@movable/prettier-config@^1.0.1, @movable/prettier-config@workspace:prettier-config":
   version: 0.0.0-use.local
   resolution: "@movable/prettier-config@workspace:prettier-config"
   peerDependencies:
