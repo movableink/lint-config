@@ -1743,7 +1743,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@movable/create-lint-config@workspace:create-lint-config"
   dependencies:
-    "@movable/generator-lint-config": ^1.0.2
+    "@movable/generator-lint-config": ^1.0.3
     yeoman-environment: ^3.9.1
   bin:
     create-lint-config: ./bin/create-lint-config.js
@@ -1818,7 +1818,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@movable/generator-lint-config@^1.0.2, @movable/generator-lint-config@workspace:generator-lint-config":
+"@movable/generator-lint-config@^1.0.3, @movable/generator-lint-config@workspace:generator-lint-config":
   version: 0.0.0-use.local
   resolution: "@movable/generator-lint-config@workspace:generator-lint-config"
   dependencies:
@@ -8912,9 +8912,9 @@ fsevents@^2.3.2:
   linkType: hard
 
 "qs@npm:~6.5.2":
-  version: 6.5.2
-  resolution: "qs@npm:6.5.2"
-  checksum: 24af7b9928ba2141233fba2912876ff100403dba1b08b20c3b490da9ea6c636760445ea2211a079e7dfa882a5cf8f738337b3748c8bdd0f93358fa8881d2db8f
+  version: 6.5.3
+  resolution: "qs@npm:6.5.3"
+  checksum: 6f20bf08cabd90c458e50855559539a28d00b2f2e7dddcb66082b16a43188418cb3cb77cbd09268bcef6022935650f0534357b8af9eeb29bf0f27ccb17655692
   languageName: node
   linkType: hard
 
