@@ -23,6 +23,9 @@
     "lint-staged": "^11.2.6",
     "prettier": "^2.7.1"
   },
+  "resolutions": {
+    "minimist": "^1.2.6"
+  },
   "prettier": "./prettier-config",
   "lint-staged": {
     "*.js": "eslint --fix",
